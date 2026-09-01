@@ -6,45 +6,57 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Atualmente o hábito de leitura não é comum entre os jovens, a leitura é algo importânte para a formação desses jovens?",
-        alternativas: [
-            {
-                texto: "Sim, já que, além de inumeros livros servirem de base para vestibulares, eles podem trazer conhecimentos de assuntos diversos e expandir o vacabulario do leitor",
-                afirmacao: "Os livros ainda são de uma grande importância para os estudos e para a formação da etica e moral da população, sendo sem dúvidas um grande alicerce da sociedade."
-            },
-            {
-                texto: "A leitura é indiferente, já que, atualmente não são necessarios livros para os estudos ou enterterimento, já que, atualmente não são necessarios livros para estudos levando em conta que hoje é possível encomtrar ambos nas redes sociais",
-                afirmacao: "Apesar do grande acesso a informaçõese conteúdos que as redes sociais nos proporcionam, os livros não deixam de ser essenciais na sociedade seja para estudos ou para obter conhecimento."
-            }
-        ]
-    },
-    {
-        enunciado: "Algumas pessoas tem muita dificuldade para começarem no mundo da leitura, dito isso qual seria a maneira mais recomendada para se começar a ler?",
-        alternativas: [
-            {
-                texto: "Ler livros pequenos, de facíl entendimento e que sejam de assuntos de interesse do leitor.",
-                afirmacao: "Para quem não  tem o hábito de ler, porém tem vontadede iniciar no mundo da leitura o mais indicado seria ler livros pequenos e de assuntos que sejam de interesse do leitor para despertar o interesse da leitura e tornar a mesma um habito."
-            },
-            {
-                texto: "Ler livros didáticos e de autores conhecidos.",
-                afirmacao: "Para quem tem interessede começar na leitura não seria ideal começar diretamente pelos clássicos já que a leitura dos mesmos pode ser mais dificil dificultando assim a criação do habito da leitura."
-            }
-        ]
-    },
-    {
-        enunciado: "Atualmente vemos um grande aumentos nos valores dos livros físicos, oque dificulta a aquisição dos mesmos, a leitura digital vem se popularizou entre os leitores nos ultimos anos em parte pelos preços mais acessiveis, então seria ela uma alternativa viavel aos livros físicos?",
-        alternativas: [
-            {
-                texto: "Provavelmente, já que iria possibilitar uma maior aquisição por parte da população.",
-                afirmacao: "Já para quem não  tem condições de adquirir livros físicos os livros online são uma otima opção, pois permite a aquisição dos mesmos por um preço muito menor ou até mesmo gratuitamente, o que sem duvidas pode abrir grandes portas para esses leitores."
-            },
-            {
-                texto: "Não teria grande importância já que grande parte da população continuaria adquirindo livros físicos apesar dos preços.",
-                afirmacao: "Apesar do consumo de livros físicos ainda ser maioria os livros oline permitem que pessoas que não podem adquirir livros físicos tenham acesso a leitura, podendo gerar grandes oportunidades para esses leitores."
-            }
-        ]
-    },
-];
+    enunciado: "De que forma o hábito da leitura pode contribuir para o desenvolvimento dos jovens?",
+    alternativas: [
+        {
+            texto: "A leitura pode ajudar no desenvolvimento do pensamento crítico, da criatividade e da capacidade de interpretação.",
+            afirmacao: "O hábito da leitura contribui para que os jovens desenvolvam diferentes habilidades, como interpretação, criatividade e pensamento crítico, tornando-os mais preparados para lidar com diferentes situações."
+        },
+        {
+            texto: "A leitura contribui pouco para o desenvolvimento dos jovens, pois existem outras formas de adquirir conhecimento atualmente.",
+            afirmacao: "Embora existam diversas formas de adquirir conhecimento atualmente, a leitura continua sendo uma ferramenta importante para o desenvolvimento intelectual e pessoal dos jovens."
+        }
+    ]
+},
+{
+    enunciado: "Muitos jovens afirmam que não possuem tempo para ler. O que poderia ser feito para incluir a leitura na rotina?",
+    alternativas: [
+        {
+            texto: "Reservar alguns minutos por dia para ler, escolhendo livros que sejam interessantes para o próprio leitor.",
+            afirmacao: "Criar uma rotina de leitura, mesmo que por poucos minutos diariamente, pode facilitar a criação do hábito e tornar a leitura uma atividade prazerosa."
+        },
+        {
+            texto: "Ler somente quando houver uma obrigação escolar ou quando for necessário para alguma atividade.",
+            afirmacao: "Ler apenas por obrigação pode dificultar a criação do hábito, pois a leitura também pode ser uma atividade de lazer e uma forma de descobrir novos assuntos e histórias."
+        }
+    ]
+},
+{
+    enunciado: "Com o crescimento das redes sociais e dos vídeos curtos, muitos jovens passaram a consumir conteúdos mais rápidos. Isso pode afetar o interesse pela leitura?",
+    alternativas: [
+        {
+            texto: "Sim, pois o contato constante com conteúdos rápidos pode fazer com que alguns jovens tenham mais dificuldade em manter a atenção durante uma leitura.",
+            afirmacao: "O consumo frequente de conteúdos rápidos pode influenciar os hábitos de atenção, tornando importante incentivar momentos de leitura mais prolongados e concentrados."
+        },
+        {
+            texto: "Não, pois as redes sociais não possuem nenhuma relação com os hábitos de leitura dos jovens.",
+            afirmacao: "As redes sociais fazem parte da rotina de muitos jovens e podem influenciar a maneira como eles consomem informação, por isso é importante equilibrar o uso dessas plataformas com outras atividades, como a leitura."
+        }
+    ]
+},
+{
+    enunciado: "A escola pode contribuir para despertar o interesse dos jovens pela leitura?",
+    alternativas: [
+        {
+            texto: "Sim, por meio de projetos, debates e atividades que permitam aos alunos escolher livros de diferentes gêneros.",
+            afirmacao: "A escola pode ter um papel importante na formação de novos leitores ao apresentar diferentes tipos de livros e transformar a leitura em uma experiência mais interessante e participativa."
+        },
+        {
+            texto: "Não, pois o interesse pela leitura depende exclusivamente da vontade de cada aluno.",
+            afirmacao: "Apesar de a vontade individual ser importante, a escola, a família e outros ambientes sociais também podem incentivar os jovens a conhecer novos livros e desenvolver o hábito da leitura."
+        }
+    ]
+}
 
 
 let atual = 0;
