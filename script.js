@@ -1,10 +1,11 @@
-const caixaPrincipal = document.querySelector(".caixa-principal");
++const caixaPrincipal = document.querySelector(".caixa-principal");
 const caixaPerguntas = document.querySelector(".caixa-perguntas");
 const caixaAlternativas = document.querySelector(".caixa-alternativas");
 const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
+        
 {
         enunciado: "Qual a importância da leitura para o desenvolvimento do conhecimento dos jovens?",
         alternativas: [
@@ -43,9 +44,9 @@ const perguntas = [
                 afirmacao: "As redes sociais fazem parte da rotina de muitos jovens e podem influenciar seus hábitos, porém também podem ser utilizadas para divulgar livros e incentivar a leitura."
             }
         ]
-    }
-
-
+    },
+];
+        
 let atual = 0;
 let perguntaAtual;
 let historiaFinal = "";
