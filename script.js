@@ -6,41 +6,80 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Qual a importância da leitura para o desenvolvimento do conhecimento dos jovens?",
+        enunciado: "Como a leitura pode ajudar no desempenho escolar dos jovens?",
         alternativas: [
             {
-                texto: "A leitura é importante, pois ajuda os jovens a conhecerem novos assuntos, desenvolverem o pensamento crítico e melhorarem a interpretação de textos.",
-                afirmacao: "A leitura possui um papel fundamental na formação dos jovens, contribuindo para o desenvolvimento do conhecimento, da interpretação e do pensamento crítico."
+                texto: "A leitura pode melhorar a interpretação de textos, ampliar o vocabulário e facilitar a compreensão de diferentes conteúdos escolares.",
+                afirmacao: "A leitura contribui para o desempenho escolar ao desenvolver habilidades de interpretação, compreensão e ampliação do vocabulário."
             },
             {
-                texto: "A leitura não é tão importante atualmente, pois os jovens conseguem encontrar praticamente todas as informações que precisam na internet.",
-                afirmacao: "Mesmo com a facilidade de encontrar informações na internet, a leitura continua sendo essencial para desenvolver o conhecimento e a capacidade de interpretar diferentes informações."
+                texto: "A leitura não interfere no desempenho escolar, pois cada matéria depende apenas dos conteúdos ensinados pelo professor.",
+                afirmacao: "A leitura pode contribuir para diversas áreas do conhecimento, pois ajuda os estudantes a compreenderem melhor textos, questões e informações."
             }
         ]
     },
     {
-        enunciado: "O que pode ser feito para incentivar os jovens a desenvolverem o hábito da leitura?",
+        enunciado: "Por que é importante escolher livros de acordo com os interesses dos jovens?",
         alternativas: [
             {
-                texto: "Incentivar a leitura de livros que sejam interessantes para os jovens e apresentar diferentes gêneros literários.",
-                afirmacao: "Apresentar livros de diferentes gêneros e permitir que os jovens escolham assuntos de seu interesse pode tornar a leitura mais agradável e ajudar na criação desse hábito."
+                texto: "Porque livros relacionados aos interesses dos jovens podem despertar maior curiosidade e tornar a leitura mais prazerosa.",
+                afirmacao: "Escolher livros que despertem o interesse dos jovens pode aumentar a motivação e contribuir para a formação do hábito de leitura."
             },
             {
-                texto: "Obrigar os jovens a lerem apenas livros considerados importantes, mesmo que eles não tenham interesse pelo assunto.",
-                afirmacao: "Obrigar a leitura de livros que não despertam o interesse dos jovens pode fazer com que eles associem a leitura apenas a uma obrigação, dificultando a criação de um hábito."
+                texto: "Porque os jovens devem ler somente livros sobre assuntos que já conhecem e nunca explorar novos temas.",
+                afirmacao: "Embora os interesses pessoais possam incentivar a leitura, também é importante conhecer novos assuntos e diferentes gêneros literários."
             }
         ]
     },
     {
-        enunciado: "As redes sociais podem influenciar o interesse dos jovens pela leitura?",
+        enunciado: "Qual é uma das principais vantagens de ler diferentes gêneros literários?",
         alternativas: [
             {
-                texto: "Sim, pois o excesso de conteúdos rápidos pode diminuir o interesse por atividades que exigem mais concentração, como a leitura.",
-                afirmacao: "O consumo constante de conteúdos rápidos nas redes sociais pode influenciar os hábitos dos jovens, tornando importante equilibrar o tempo nas redes com atividades que estimulem a concentração e a leitura."
+                texto: "Conhecer diferentes formas de escrita, histórias, ideias e maneiras de compreender o mundo.",
+                afirmacao: "A leitura de diferentes gêneros literários amplia o contato dos jovens com diferentes estilos, ideias e perspectivas."
             },
             {
-                texto: "Não, pois as redes sociais não possuem nenhuma influência nos hábitos de leitura dos jovens.",
-                afirmacao: "As redes sociais fazem parte da rotina de muitos jovens e podem influenciar seus hábitos, porém também podem ser utilizadas para divulgar livros e incentivar a leitura."
+                texto: "Ler diferentes gêneros não traz benefícios, pois todos os livros apresentam basicamente as mesmas informações.",
+                afirmacao: "Os diferentes gêneros literários apresentam características, linguagens e perspectivas variadas, contribuindo para ampliar o conhecimento do leitor."
+            }
+        ]
+    },
+    {
+        enunciado: "De que maneira a tecnologia pode ser utilizada para incentivar a leitura?",
+        alternativas: [
+            {
+                texto: "Por meio de aplicativos, livros digitais, clubes de leitura online e conteúdos que apresentem novas obras aos jovens.",
+                afirmacao: "A tecnologia pode ser uma ferramenta para aproximar os jovens dos livros e facilitar o acesso a diferentes conteúdos de leitura."
+            },
+            {
+                texto: "A tecnologia deve ser evitada, pois celulares e computadores não podem contribuir para o desenvolvimento do hábito da leitura.",
+                afirmacao: "Apesar de poder causar distrações, a tecnologia também oferece recursos que podem facilitar o acesso aos livros e incentivar a leitura."
+            }
+        ]
+    },
+    {
+        enunciado: "Por que é importante reservar um momento do dia para a leitura?",
+        alternativas: [
+            {
+                texto: "Porque criar uma rotina de leitura pode ajudar a transformar a leitura em um hábito e melhorar a concentração.",
+                afirmacao: "Reservar um período para ler diariamente pode contribuir para a criação de uma rotina e para o desenvolvimento da concentração."
+            },
+            {
+                texto: "Porque ler todos os dias significa que o jovem precisa abandonar outras atividades importantes de sua rotina.",
+                afirmacao: "A leitura deve fazer parte de uma rotina equilibrada, dividindo espaço com estudos, lazer, descanso e outras atividades."
+            }
+        ]
+    },
+    {
+        enunciado: "Como a família pode contribuir para incentivar os jovens a lerem?",
+        alternativas: [
+            {
+                texto: "Criando momentos de leitura em casa, conversando sobre livros e demonstrando interesse pelas leituras dos jovens.",
+                afirmacao: "A participação da família pode estimular o interesse pela leitura ao criar um ambiente favorável e valorizar o contato com os livros."
+            },
+            {
+                texto: "A família não precisa incentivar a leitura, pois esse é um hábito que deve ser desenvolvido somente pela escola.",
+                afirmacao: "A escola possui um papel importante, mas a família também pode contribuir para criar um ambiente que estimule e valorize a leitura."
             }
         ]
     },
