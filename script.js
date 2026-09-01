@@ -5,8 +5,7 @@ const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
-        
-{
+    {
         enunciado: "Qual a importância da leitura para o desenvolvimento do conhecimento dos jovens?",
         alternativas: [
             {
